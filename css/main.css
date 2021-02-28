@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;900&display=swap');
+
+body{
+  font-family: 'Exo 2', sans-serif;
+  font-weight:400;
+}
+
+#pageHead, #pageFooter {
+  position: relative;
+  background-color:#D90405;
+  height:50px;
+  width:100%;
+}
+#pageHead {
+  border-bottom:4px solid #484242;
+}
+#pageFooter {
+  border-top:4px solid #484242;
+}
+
+#logoWrap{
+  width: 160px;
+  position: absolute;
+  right: 50px;
+  top: 20px;
+  text-align:center;
+  text-transform:uppercase;
+  color:#959595;
+  font-size:16px;
+  font-weight:600;
+}
+
+#logo {
+  width:105px;
+  margin:auto;
+  margin-bottom:6px;
+}
+
+#quotationHead {
+  margin-top:50px;
+  color:#444444;
+}
+
+#quotationHead h2{
+  text-transform:uppercase;
+  border-bottom: 2px solid #444444;
+  display:inline-block;
+  font-weight:900;
+  padding-bottom:5px;
+}
+
+.uppercase {
+  text-transform:uppercase;
+}
+
+.semiBold{
+  font-weight:600;
+}
+
+.quoteTo {
+  background-color:#D90405;
+  color: #fff;
+  padding: 1px 6px;
+  border-radius: 8px;
+  max-width: 300px;
+}
+
+.divider{
+  background-color: #444444;
+  height: 18px;
+  margin: 20px 0;
+  border-radius: 18px;
+}
+.rowDesc {
+  color:#444444;
+}
+.table-bordered {
+    border: 3px solid #030303 !important;
+}
+
+.table-bordered td, .table-bordered th {
+  border-left: 1.5px solid #515151 !important;
+  border-right: 1.5px solid #515151 !important;
+  border-top: 2px solid #515151 !important;
+  border-bottom: 2px solid #515151 !important;
+}
+
+td.noBorders{
+    border-top: none !important;
+    border-bottom: none !important;
+}
